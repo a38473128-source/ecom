@@ -32,7 +32,7 @@ export default function AboutUs() {
         ))}
       </div>
 
-      <h3>Nos families</h3>
+      <h3>Nos families </h3>
       <div className={styleHome.grid}>
         {families.map((fam) => (
           <div className={styleHome.card}>
