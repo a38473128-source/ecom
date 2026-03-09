@@ -1,0 +1,19 @@
+.products{
+    margin: 0 2rem;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 2rem 0;
+}
+h2{
+    color: #2707c3;
+    margin: 4rem 0;
+}
+@media (max-width:768px) {
+    .grid{
+        flex-direction: column;
+        margin: 0.3rem 0;
+    }
+}

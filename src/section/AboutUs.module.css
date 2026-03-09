@@ -1,0 +1,21 @@
+.about{
+    padding: 4rem 2rem;
+    background-color: white;
+    text-align: center;
+}
+.about h2{
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+}
+.about .text{
+    max-width: 800px;
+    margin: 0 auto 2rem;
+    font-size: 1.1rem;
+}
+.about h3{
+    margin: 1rem 1rem 3rem;
+    text-transform: capitalize;
+    color: rgb(75, 75, 106);
+    text-decoration: underline;
+    text-align: left;
+}

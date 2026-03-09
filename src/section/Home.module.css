@@ -1,0 +1,61 @@
+.home {
+  padding: 4rem 2rem;
+  background-color: skyblue;
+  text-align: center;
+}
+.slogan h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: rgb(75, 75, 106);
+}
+.slogan p {
+  font-size: 1.5rem;
+  color: brown;
+}
+.news {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.news h3 {
+  color: rgb(75, 75, 106);
+}
+.grid {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  border: 1px solid black;
+}
+.card {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  flex: 1 1 120px;
+  max-width: 180px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: center;
+}
+.card img {
+  max-width: 100px;
+}
+.card h4 {
+  margin: 0;
+  font-size: 1rem;
+  color: rgb(75, 75, 106);
+}
+@media (max-width=768px) {
+  .news {
+    flex-direction: column;
+  }
+  .slogan h1 {
+    font-size: 1.8rem;
+  }
+}
+.grid img{
+  height: 200px;
+}
